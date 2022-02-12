@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Search Images</string>
+    <string name="text_no_data">Nenhum item encontrado, tente novamente atualizando a página!🤔😀</string>
+    <string name="sem_conex_o_com_a_internet">Sem conexão com a internet</string>
+</resources>
