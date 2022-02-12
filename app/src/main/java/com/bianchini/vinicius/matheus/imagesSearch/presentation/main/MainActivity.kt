@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         binding.swipeContainer.setOnRefreshListener {
             if (!binding.swipeContainer.isRefreshing) return@setOnRefreshListener
             else {
+                mainAdapter.submitList(listOf())
                 model.getAllImages()
                 model.toastMessage.postValue("Imagens atualizadas ✌️")
                 binding.swipeContainer.isRefreshing = false
