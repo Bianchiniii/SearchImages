@@ -29,5 +29,9 @@ class MainViewHolder(itemBinding: ItemHolderBinding) : RecyclerView.ViewHolder(i
             val itemBinding = ItemHolderBinding.inflate(inflater, parent, false)
             return MainViewHolder(itemBinding)
         }
+
+        fun teste() {
+
+        }
     }
 }
