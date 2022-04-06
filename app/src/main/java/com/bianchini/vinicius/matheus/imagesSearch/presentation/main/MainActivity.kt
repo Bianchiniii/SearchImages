@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun initRecyclerImages() {
-        with(binding.recyclerViewImages) {
+        binding.recyclerViewImages.run {
             setHasFixedSize(true)
             adapter = mainAdapter
             layoutManager = androidx.recyclerview.widget.GridLayoutManager(this@MainActivity, 4)
